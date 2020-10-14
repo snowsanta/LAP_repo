@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 	// if given valid input, calculate and print square root
 	int input = atoi(argv[1]);
 	printf("Sqrt of %d is %f\n", input, sqrt(input));
+	printf("End of program, exiting\n");
 	return (0);
 
 } // end main
