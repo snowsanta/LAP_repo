@@ -8,6 +8,7 @@ positive number. */
 #include <ctype.h>
 
 // added first comment
+// trying to force conflict from br_negetiveSupport branch
 int main(int argc, char *argv[])
 {
 
