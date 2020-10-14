@@ -8,6 +8,7 @@ positive number. */
 #include <ctype.h>
 
 // added first comment
+// comment from master to force conflict
 int main(int argc, char *argv[])
 {
 
