@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	// if input is not given
 	if (argc != 2)
 	{
-		printf("NEG: Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	{
 		if (!isdigit(argv[1][i]) && argv)
 		{
-			printf("NEG: Error: Input must be a integer\n\n");
+			printf("DEBUG: Error: Input must be a integer\n\n");
 			exit(1);
 		}
 	}
@@ -49,13 +49,13 @@ int main(int argc, char *argv[])
 
 	if (flg == 1)
 	{
-		printf("NEG: Sqrt of %d is %fi\n", input * -1, sqrt(input));
+		printf("DEBUG: Sqrt of %d is %fi\n", input * -1, sqrt(input));
 	}
 	else
 	{
-		printf("NEG: Sqrt of %d is %f\n", input, sqrt(input));
+		printf("DEBUG: Sqrt of %d is %f\n", input, sqrt(input));
 	}
-	printf("NEG: End of program, exiting\n");
+	printf("DEBUG: End of program, exiting\n");
 	return (0);
 
 } // end main
